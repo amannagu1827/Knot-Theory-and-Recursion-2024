@@ -2,7 +2,12 @@ import random
 
 def cont_frac_exp2(p, q):
     result_exp1 = cont_frac_exp1(p, q)
-    result = [random.randint(1, 10)]  # Generating a random integer greater than 1
+    result = []
+    while True:
+        random_int = random.randint(1, 5)
+        if random_int != result_exp1[0]:  # Check if it's different from the first element of result_exp1
+            result.append(random_int)
+            break
     if q == 0:
         raise ZeroDivisionError("The denominator of the Fraction cannot be zero.")
     while result[0] != result_exp1[0]:
@@ -43,3 +48,4 @@ def cont_frac_exp2(p, q):
                 for i in Normal_exp4:
                     result.append(i)
                 return result
+            
