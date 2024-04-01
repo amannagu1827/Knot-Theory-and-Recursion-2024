@@ -44,9 +44,9 @@ def print_crossing(type):
         print("|______|  ")
 
     elif type == -20:
-           
-        print("|  __  |")
+        print("| |  | |")
         print("|_|  |_|" )
+     
         
 def diagram(p,q):
     
