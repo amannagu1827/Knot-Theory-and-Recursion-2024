@@ -24,7 +24,7 @@ def diagram(p,q):
     print_crossing(10)
     
     for i in range(num):
-    #while i < num:    
+        
 
         if array[i] > 0 and (i+1)%2 != 0:
             for j in range(array[i]):
