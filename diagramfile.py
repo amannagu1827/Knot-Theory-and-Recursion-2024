@@ -14,7 +14,35 @@ def cont_frac_exp1(p,q):
 
     return result
 
-
+def print_crossing(type):
+    """ draws very rough crossings for 2-bridge knots. Gives one crossing in either of the two positions and signs."""
+    if type == 1:
+        print("| |  \ / ")
+        print("| |   /  ")
+        print("| |  / \ ")
+    elif type ==-1:
+        print("| |  \ / ")
+        print("| |   \  ")
+        print("| |  / \ ")
+    elif type == 2:
+        print("| \ /  | ")
+        print("|  /   | ")
+        print("| / \  | ")
+    elif type == -2:
+        print("| \ /  | ")
+        print("|  \   | ")
+        print("| / \  | ")
+        
+    elif type == 10:
+        print(" ______  ")
+        print("|  __  | ")
+        print("| |  | | ")
+    
+    elif type == -10:
+        
+        print("| |__| | ")
+        print("|______|  ")
+        
 def diagram(p,q):
     
     array = cont_frac_exp1(p,q)
