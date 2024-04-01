@@ -71,4 +71,7 @@ def diagram(p,q):
             for j in range(abs(array[i])):
                 print_crossing(2)  
             
-    print_crossing(-10)
+    if num%2 == 0:
+        print_crossing(-20)
+    else:
+        print_crossing(-10)
