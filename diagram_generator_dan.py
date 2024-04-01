@@ -70,6 +70,6 @@ def generate_diagram(p,q):
         print_crossing(4)
         
     elif len(L) % 2 == 0 and L[-1] < 0:
-        print(crossing(-4))
+        print_crossing(-4)
           
     print("\______/")
