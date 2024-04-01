@@ -1,6 +1,8 @@
 # I added new types for the final link
 # The diagram generating fucntion uses cont_frac_exp1()
 
+from Cont_Frac_Exp1 import *
+
 def print_crossing(type):
     """ draws very rough crossings for 2-bridge knots. Gives one crossing in either of the two positions and signs."""
     if type == 1:
