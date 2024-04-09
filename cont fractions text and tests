@@ -1,0 +1,25 @@
+
+## this is a really rough file. managed to get some text on the ipynb file but not the code- ella
+
+def cont_frac_exp1(p,q):
+    result=[]
+    while q != 0:
+        r=p//q
+        s=p%q # Making use of the modulo arthimatic
+        result.append(r)
+        p, q = q, s
+    return result
+
+## markdown file bit: Below we use our function to compute the continued fraction sequence for $\frac{p}{q}$ = $\frac{9}{7}$; here, we see that our initial $r$ value is $r=1$ (as integer division of $\frac{9}{7}$ gives us $1$), and our initial $s$ value is $s=2$. Note this aligns with the fact that $9$(mod$7$) = $2$.
+#The steps are as follows:
+#    "r = 9//7 = 1"
+#    "s = 9 % 7 = 2"
+#    We append r = 1 to our list, so result = [1].
+ #   Then reassigning "p, q = q, s", I.e 9, 7 = 7, 2, we begin the process again.
+#    Now r = 7//2 = 3, and s = 7 % 2 = 1.
+ #   Now result = [1,3] and 7, 2 = 2, 1.
+  #  Now r = 2//1 = 2 and s = 2 % 1 = 0. We have s = 0, so as our final step we append '2' to our list, and we are done. So our list should show [1,3,2], for each value of r.
+
+cont_frac_exp1(9,7)
+
+
