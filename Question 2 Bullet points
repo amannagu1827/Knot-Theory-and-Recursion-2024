@@ -1,0 +1,23 @@
+2a) 
+#Part A is False as
+
+diagram(2,2) 
+
+#P is even , yet it gives the unknot, rather than two seperate links.
+
+# if pmodq is odd, we get it gives us the unknot, but when even it gives us a two links. 
+
+# If p is odd, regardless of pmodq being even or odd, it will always give us the unknot.
+
+*Give examples of the above cases*
+
+2b) True 
+[1, 3, 2] and [2, −2, 2, −3] Consider these two continues fraction expansions, they will give us two different diagrams when printed but using Euclids Algorithm, we get they both give us the same fraction 9/7.
+We can verify this using ridermister moves on the two draigrams to give us the same knot
+
+2c) True
+
+Not sure how to come up with an explaination as it involves some theory, but after checking it with countless examples, they always match up
+
+
+2d) Currently working on
