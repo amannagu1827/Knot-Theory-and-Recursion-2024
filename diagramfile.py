@@ -48,9 +48,7 @@ def print_crossing(type):
         print("|_|  |_|" )
      
         
-def diagram(p,q):
-    
-    array = cont_frac_exp1(p,q)
+def diagram(array):
     
     num = len(array)
     

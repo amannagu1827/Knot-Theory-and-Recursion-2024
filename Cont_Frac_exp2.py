@@ -1,4 +1,5 @@
 import random
+from Cont_Frac_Exp1 import *
 
 def cont_frac_exp2(p, q):
     result_exp1 = cont_frac_exp1(p, q)
