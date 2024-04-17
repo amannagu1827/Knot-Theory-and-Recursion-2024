@@ -1,7 +1,6 @@
 from fractions import Fraction
 
-def recalc_rat_num1(cont_frac_exp1, p, q):
-    result = cont_frac_exp1(p, q) 
+def recalc_rat_num1(result):
     original = [] # A new list to store a reverse running sum of values to find the Original fraction
     new_value1 = (result[-1] * result[-2]) + 1
     original.append(new_value1)
