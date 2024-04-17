@@ -7,7 +7,7 @@ def d_invariant(p, q, i):
         
     # Base case when p = 1
     if p == 1:
-        return 0 if i < q else Non
+        return 0 if i < q else None
 
     # Reduce to the case where p > q
     if p < q:
