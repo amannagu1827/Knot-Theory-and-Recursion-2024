@@ -2,7 +2,7 @@ Knots have played an indelible role in the evolution of human civilsations, serv
 
 We begin by building intuition on recursive relations through the exploration of continuted fractions. In Section 1.1, we establish two unique functions that calculate a continuted fraction for a given p/q, where p,q are coprime. In doing so, we motivate the use of Euclid's Algorithm. Next, in Section 1.2, we develop an efficient function that will recalculate and output a rational number given an arbitrary list. These introductory exereices will provide the reader with a foundation on working with fractions and recursions computationally. As we progress, we shall delve deeper into the subtle relationship between recursion and knots - in particular, how we use recursive relations to define, examine, and test properties of knots. 
 
-
+Having established the fundamentals, in the next chapter, we shall explore knot theory more abstractly, testing our hypotheses using the computational tools we have previously developed. We first introduce 2-bridge links,
 
 In Chapter 2, we shall explore knot theory in greater depth, using the computational tools we have previously developed. We will first explore the fundamentals of 2-bridge knots, studying the claim that, for every rational number p/q, where p,q are coprime, there is an associated 2-bridge knot S(p,q). We analyse this statement by developing an algorithm for S(p,q), given p,q. After constructing this algorithm, (in section blah blah) we will run certain tests to deduce properties about 2-bridge knots, including manipulating the parity and sign of p and q. We conclude this section by investigating the relationship between S(p,q) and S(p,q’), where p is fixed and qq’ satisfies a particular modular relation.
 
