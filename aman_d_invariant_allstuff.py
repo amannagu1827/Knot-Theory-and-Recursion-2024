@@ -20,8 +20,8 @@ def d_invariant(p, q, i):
     if q == 0 or i < q:
         return 0
     elif i < p + q - 1:
-        numerator = (2 * i + 1 - p - q) ** 2 - p * q
-        return Fraction(numerator, 4 * p * q)
+        numerator = (2*i+1-p-q) ** 2 - p*q
+        return Fraction(numerator, 4*p*q)
     else:
         return -d_invariant(q, p, i)
 
