@@ -9,14 +9,14 @@ def d_invariant(p, q, i):
     if p == 1:
         return 0 if i < q else None
 
-    # Reduce to the case where p > q
+    # Assuming p>q
     if p < q:
         p, q = q, p
 
     # Reduce i modulo p+q
     i %= p + q
 
-    # Recursive definition
+    # Using the recursive definition
     if q == 0 or i < q:
         return 0
     elif i < p + q - 1:
