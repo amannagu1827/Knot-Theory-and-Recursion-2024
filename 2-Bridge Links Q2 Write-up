@@ -1,4 +1,5 @@
 We will use our previous function (refer to section, give more deets) that allows us to generate 2-bridge link diagrams to test certain properties of 2-bridge links. 
+
 Claim (a): S(p,q) is a knot if p is odd, and has 2 components if p is even.
 Solution + Explanation: We find this claim is incorrect by means of a counterexample. This is substantiated by [REFER HERE TO EXACT DIAGRAM]. Here, p is an even number, yet it gives the unknot (i.e. the trivial knot), as opposed to two separate links, as claimed. Further, if p is an odd number, regardless of the parity of p (modq), the output will consistently be the unknot. (HAVE TO GIVE EXAMPLES, SOME SEMBLANCE OF PROOF)
 
@@ -8,5 +9,5 @@ Solution + Explanation: We find this to be a true statement. We introduce the tw
 Claim (c): If n $\in\mathbb{Z}$, then S(p,q) = S(p,q+np).
 Solution + Explanation: This claim suggests certain periodic behaviour of 2-bridge links. Having tested this claim with numerous examples, it seems to be a true statement. However, this is by no means a rigorous proof. A proof would have to show the topological equivalence of the S(p,q) and S(p,q+np) knot. However, logically approaching this question, we have insight on why this may be true. (EXPLAIN LOGICALLY)
 
-Claim (d): Changing the sign of all the crossings in S(p,q) gives you S(p,-q)=S(p,p-q)
+Claim (d): Changing the sign of all the crossings in S(p,q) gives you S(p,-q) = S(p,p-q).
 Solution + Explanation: TO BE COMPLETED
