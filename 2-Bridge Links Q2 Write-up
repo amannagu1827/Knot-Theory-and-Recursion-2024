@@ -3,7 +3,11 @@ Claim (a): S(p,q) is a knot if p is odd, and has 2 components if p is even.
 Solution + Explanation: We find this claim is incorrect by means of a counterexample. This is substantiated by [REFER HERE TO EXACT DIAGRAM]. Here, p is an even number, yet it gives the unknot (i.e. the trivial knot), as opposed to two separate links, as claimed. Further, if p is an odd number, regardless of the parity of p (modq), the output will consistently be the unknot. (HAVE TO GIVE EXAMPLES, SOME SEMBLANCE OF PROOF)
 
 Claim (b): The link S(p,q) does not depend on the choice of continued fraction, even though the diagram does. 
-Solution + Explanation: 
+Solution + Explanation: We believe this is a true statement. We introduce the two lists [1,3,2] and [2,-2,2,-3]. Consider these two continued fraction expansions. {SHOW DIAGRAMS HERE}. Inputting these two lists into our diagram-generating functions, we find that two unique 2-bridge link diagrams are outputted. However, using Euclid's division algorithm, we find that these continued fractions simplify to 9/7. We can verify this by applying the Reidemeister moves to the two diagrams, which give us the same knot. More abstractly, this claim is suggesting that the topological properties of the S(p,q) link remains consistent. Hence, a rigorous proof would entail showing the resulting knots are topologically equivalent regardless of how p/q is represented. 
+
+Claim (c): If n $\in\mathbb{Z}$, then S(p,q) = S(p,q+np).
+Solution + Explanation
+
 
 
 
