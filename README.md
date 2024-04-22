@@ -2,6 +2,6 @@
 
 Project 4 Group 2: Knot Theory and Recursion 
 
-Members: Vishal Farma, Daniel Flett, Susan Yuan, Ella Womack, Xane Miles, Aman Nagu
+Members: Vishal Farma, Daniel Flett, Susan Yuan, Ella Womack, Xane Miles, and Aman Nagu
 
-Year 2 Mathematical Programming, University of Bristol (2023-2024)
+Y2 Mathematical Programming, University of Bristol
