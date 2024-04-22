@@ -1,0 +1,11 @@
+We will use our previous function (refer to section, give more deets) that allows us to generate 2-bridge link diagrams to test certain properties of 2-bridge links. 
+Claim (a): S(p,q) is a knot if p is odd, and has 2 components if p is even.
+Solution + Explanation: We find this claim is incorrect by means of a counterexample. This is substantiated by [REFER HERE TO EXACT DIAGRAM]. Here, p is an even number, yet it gives the unknot (i.e. the trivial knot), as opposed to two separate links, as claimed. Further, if p is an odd number, regardless of the parity of p (modq), the output will consistently be the unknot. (HAVE TO GIVE EXAMPLES, SOME SEMBLANCE OF PROOF)
+
+Claim (b): The link S(p,q) does not depend on the choice of continued fraction, even though the diagram does. 
+Solution + Explanation: 
+
+
+
+Claim (c): If n $\in\mathbb{Z}$, then S(p,q) = S(p,q+np). 
+Claim (d): Changing the sign of all the crossings in S(p,q) gives you S(p,-q)=S(p,p-q)
