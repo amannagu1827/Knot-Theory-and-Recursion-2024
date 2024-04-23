@@ -10,4 +10,4 @@ Claim (c): If n $\in\mathbb{Z}$, then S(p,q) = S(p,q+np).
 Solution + Explanation: This claim suggests certain periodic behaviour of 2-bridge links. Having tested this claim with numerous examples, it seems to be a true statement. However, this is by no means a rigorous proof. A proof would have to show the topological equivalence of the S(p,q) and S(p,q+np) knot. However, logically approaching this question, we have insight on why this may be true. (EXPLAIN LOGICALLY)
 
 Claim (d): Changing the sign of all the crossings in S(p,q) gives you S(p,-q) = S(p,p-q).
-Solution + Explanation: TO BE COMPLETED
+Solution + Explanation: Again, we find this claim to be incorrect by means of a counterexample. (FIND COUNTEREXAMPLE AND GIVE SOME DESCRIPTION). TO BE COMPLETED.
