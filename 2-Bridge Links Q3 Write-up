@@ -1,1 +1,5 @@
-Hello
+Investigate the relation between the links S(p,q) and S(p,q') when qq' ≡ 1(mod p).
+
+Rough Answer: We find that the diagrams are vertically flipped and the continued fraction expansion of both (p,q) and (p,q') are (i) flipped and (ii) are always of length three. To see (i) and (ii), let us consider a numerical example. We let p = 23, q = 4, and q' = 6. Then, upon evaluation we get [5,1,3] and [3,1,5] respectively. We can justify this pattern with a range of examples. Thus, let us generalise this process, considering (i) Cont_Frac_Exp1 (p,q)=[a,b,c] and (ii) Cont_Frac_Exp2 (p,q') = [c,b,a]. For (i), we get that p/q = a+1/(b+1/c) = (acb+a+c)/(cb+1), where p = acb+a+c and q = cb+1. For (ii), we get that p/q' = c+1/(b+1/a) = (acb+a+c)/(ab+1), where p = acb+a+c, and q' = ab+1. Performing some basic algebraic manipulation, we find that qq' = (acb^2+ab+cb+1) ≡ b(acb+a+c)+1 (mod (acb+a+c)). Hence, qq' ≡ bp+1 (mod p), i.e. qq' ≡ 1(mod p). So, we have shown algebraically why qq' ≡ 1(mod p). 
+
+We now move on to why Cont_Frac_Exp(p,q) always outputs a list of length 3, given qq' ≡ 1(mod p).
