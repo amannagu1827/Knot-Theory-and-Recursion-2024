@@ -57,4 +57,3 @@ Now repeatedly run this next line to convince yourself that the $d$-invariants a
 
 d_invariant_checker(random_pair, modified_rp, tol)
 
-
