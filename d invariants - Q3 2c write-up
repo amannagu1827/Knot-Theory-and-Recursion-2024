@@ -28,6 +28,7 @@ def divisors(x):
             divs.add(i)
     return divs
 
+from random inport randrange
 def coprime_pair_generator(n):       
     num1 = randrange(n+1)
     num1_divs = divisors(num1)       # Choose the first number randomly and generate its set of divisors 
