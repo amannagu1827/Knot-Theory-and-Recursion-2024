@@ -4,7 +4,7 @@ Rough Answer: We find that the diagrams are vertically flipped and the continued
 
 We now move on to why Cont_Frac_Exp(p,q) always outputs a list of length 3, given qq' ≡ 1(mod p). Consider a continued fraction of length 1. This implies q|p, i.e. q = mp for some integer m, and so qq' (mod p) ≡ 0. Now, consider a continued fraction of length 2, say Cont_Frac_Exp1[a,b] and Cont_Frac_Exp1[b,a]. Then, p/q = a+1/b = (ab+1)/b, and p/q' = b+1/a = (ab+1)/a. So, qq' = ab and p=ab+1, implying that qq' (mod p) = -1 ≠ 1. Now, let us jump to a list of length 4. Consider (p,q) = [a,b,c,d] and (p,q') = [d,c,b,a]. Then, p/q = a+1/(b+1/(c+1/d)) = a+(cd+1/bcd+b+d) = (abcd+ba+bd+cd+1)/(bcd+b+d) = (a(bcd+b+d)+cd+1)/(bcd+b+d). Here, p = a(bcd+b+d)+cd+1 and q = bcd+b+d. Using the same logic for p/q' to find q', we can swap a and d, b and c, to get q' = cba+b+a. Thus, qq' = (bcd+b+d)(cba+c+a) = (WILL DO), which naturally does not factor to 1. Now, for a length 5 or more, since the factorisation of [a,b,c,d,e,...] depends on the factorisation of length 4, we arrive at the conclusion that it will not satisfy qq' ≡ 1(mod p). 
 
-Hence, we have shown that qq' ≡ 1(mod p) is only possible when len(Cont_Frac_Exp1(p,q)) = len(Cont_Frac_Exp1(p,q')) = 3. Further, we have shown that the continued fraction expansions are always flipped, and so the diagrams S(p,q) and S(p,q') preserve the same structure. 
+Hence, we have shown that qq' ≡ 1(mod p) is only possible when len(Cont_Frac_Exp1(p,q)) = len(Cont_Frac_Exp1(p,q')) = 3. Further, we have shown that the continued fraction expansions are always flipped, and so the diagrams S(p,q) and S(p,q') preserve the same structure as they are knots and crossings, but are vertically flipped. 
 
 
 
