@@ -44,7 +44,6 @@ Note that if $p,q$ are co-prime and $n\in\mathbb{Z}$ then $p,q+np$ are co-prime 
 
 d1 = (9,7)
 d2 = (9,25)
- 
 tol = 1e-5
 d_invariant_checker(d1,d2,tol)
 
