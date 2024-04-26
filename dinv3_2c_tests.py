@@ -1,3 +1,5 @@
+from random import randrange
+
 def calculate_d_invariant(p, q, i):
     if p == 1:
         return 0
