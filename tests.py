@@ -1,6 +1,6 @@
 from diagram_generator_dan import generate_diagram as diagram_dan
 from diagramfile import cont_frac_exp1, diagram as diagram_ella
-from Cont_Frac_exp2 import *
+from Cont_Frac_Exp2 import *
 from recalc_rat_num1 import *
 
 if __name__ == "__main__":
