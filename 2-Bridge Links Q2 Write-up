@@ -16,6 +16,9 @@ ________________________________________________________________________________
 
 NEW PART 
 
+Claim (b): The link S(p,q) does not depend on the choice of continued fraction, even though the diagram does. 
+Solution + Explanation: We find this to be a true statement. We introduce the two lists [1,3,2] and [2,-2,2,-3]. Consider these two continued fraction expansions. {SHOW DIAGRAMS HERE}. Inputting these two lists into our diagram-generating functions, we find that two unique 2-bridge link diagrams are outputted. However, using Euclid's division algorithm, we find that these continued fractions simplify to 9/7. We can verify this by applying the Reidemeister moves to the two diagrams, which give us the same knot. More abstractly, this claim is suggesting that the topological properties of the S(p,q) link remains consistent. Hence, a rigorous proof would entail showing the resulting knots are topologically equivalent regardless of how p/q is represented. 
+
 Claim (d): Changing the sign of all the crossings in S(p,q) gives you S(p,-q) = S(p,p-q).
 Solution + Explanation: We find this claim to be incorrect by means of counterexamples (LISTED HERE). We analyse this claim in two parts. First, we will show that S(p,q) = S(p,-q). Then, we will show that S(p,q) ≠ S(p-q), implying that S(p,-q) ≠ S(p,p-q). 
 
