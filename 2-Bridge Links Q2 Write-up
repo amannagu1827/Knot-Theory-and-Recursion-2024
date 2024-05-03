@@ -11,3 +11,19 @@ Solution + Explanation: This claim suggests certain periodic behaviour of 2-brid
 
 Claim (d): Changing the sign of all the crossings in S(p,q) gives you S(p,-q) = S(p,p-q).
 Solution + Explanation: Again, we find this claim to be incorrect by means of a counterexample. (FIND COUNTEREXAMPLE AND GIVE SOME DESCRIPTION). TO BE COMPLETED.
+__________________________________________________________________________________________________________________________________________
+
+
+NEW PART 
+
+Claim (d): Changing the sign of all the crossings in S(p,q) gives you S(p,-q) = S(p,p-q).
+Solution + Explanation: We find this claim to be incorrect by means of counterexamples (LISTED HERE). We analyse this claim in two parts. First, we will show that S(p,q) = S(p,-q). Then, we will show that S(p,q) ≠ S(p-q), implying that S(p,-q) ≠ S(p,p-q). 
+
+Changing the signs of crossings of S(p,q) will always give us S(p,-q). We will show that when S(p,q) has each element in its continued fraction expansion sign changed, it produces an expansion equivalent to S(p,-q). We use induction. 
+
+[BASE CASE] The smallest continued fraction expansion has length 2. Consider Cont_Frac_Exp1(p,q) = [a,b]. Now, we flip the signs of the elements to get [-a,-b]. When expanded, this gives us -a +1/-b = (ab+1)/-b = p/-q, which gives us the diagram S(p,-q) for the base case.
+
+[INDUCTIVE HYPOTHESIS] Now consider a continued fraction expansion Cont_Frac_Exp1(p,q) of length n, i.e. [a_1,a_2,...,a_n], and assume that when flipping the sign of each element in the expansion, our new expansion is of the form p/-q. 
+
+[INDUCTIVE STEP] We need to show this property holds for Cont_Frac_Exp1(p,q) of length n+1.
+
