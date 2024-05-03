@@ -1,4 +1,4 @@
-We have shown in Chapter 2, Section 2.2 that if $n \in \mathbb{Z}$ and $p,q$ are co-prime then $S(p,q) = S(p,q+np)$. Now we will illustrate that
+We have shown in Chapter 2, Section 2.2 that if $n \in \mathbb{Z}$ where $n\geq0$ and $p,q$ are co-prime, then $S(p,q) = S(p,q+np)$. Now we will illustrate that
 when this is the case, the two 2-bridge links generate the same $d$-invariants.
 
 First let us define a function which checks if the $d$-invariants of two fractions f1 and f2 are the same.
