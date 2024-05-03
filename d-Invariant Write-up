@@ -1,6 +1,4 @@
-We conclude this project by introducing knot invariants, particularly 2-bridge link invariants. We analyse d-invariants of 
-, i.e. a collection of 
- rational numbers denoted 
+
 . We do so by establishing a homomorphism between our 
  knot group and an arbitrary 3-dimensional manifold, say 
 , and then take the 'd'-invariant of this manifold. First, we will write a function to calculate 
@@ -9,6 +7,10 @@ We conclude this project by introducing knot invariants, particularly 2-bridge l
 . We conclude by examining some more theory on d-invariants using our code.
 
 
-We now move on to the final topic of this project. We introduce the d-invariant of S(p,q). Recall that this is an arbitrary collection of p rational numbers, denoted by d(S(p,q),i). WHAT REALLY IS D-INVARIANT. NOW INTRODUCE RECURSIVE. 
+We now move on to the final topic of this project. We introduce the d-invariant of S(p,q). Recall that this is an arbitrary collection of p rational numbers assigned to a 2-bridge link S(p,q), denoted by d(S(p,q),i), where p,q are coprime. As mentioned previously, we use the 2-bridge link S(p,q) to determine a 3-dimensional manifold L(p,q). While beyond the scope of this project, we do so by constructing a homomorphism between our link and L(p,q). The existence of this homomorphism is proved by Kronheimer and Mrowka [2010]. (PUT REFERENCE) Then 'd' is the invariant of this manifold. 
 
-For all p>0, d(S(p,q),i) satisfies some recursive relations. First, for p=1, and any q,i, we define d(S(1,q),i) = 0. Next, letting a%p denote the integer between 0 and p that is congruent to a (modp), we find that d(S(p,q),i) = d(S(p,q%p),i%p). Last, for p>q>0 and 0≤i<p+q, we have d(S(p,q),i) = $\frac{(2i+1-p-q)^2-pq}{4pq} - d(S(p,q),i). 
+A natural question may arise. What exactly do we mean by the 'invariant' of a manifold. This refers to a property associated with the manifold L(p,q) which remains unchanged under certain transformations. 
+
+WHAT REALLY IS D-INVARIANT. NOW INTRODUCE RECURSIVE. 
+
+For all p>0, d(S(p,q),i) satisfies some recursive relations. First, for p=1, and any q,i, we define d(S(1,q),i) = 0. Next, letting a%p denote the integer between 0 and p that is congruent to a (modp), we find that d(S(p,q),i) = d(S(p,q%p),i%p). Last, for p>q>0 and 0≤i<p+q, we have d(S(p,q),i) = $\frac{(2i+1-p-q)^2-pq}{4pq}$ - d(S(p,q),i). 
