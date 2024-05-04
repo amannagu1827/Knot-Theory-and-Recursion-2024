@@ -1,16 +1,3 @@
-We will use our previous function (refer to section, give more deets) that allows us to generate 2-bridge link diagrams to test certain properties of 2-bridge links. 
-
-Claim (a): S(p,q) is a knot if p is odd, and has 2 components if p is even.
-Solution + Explanation: We find this claim is incorrect by means of a counterexample. This is substantiated by [REFER HERE TO EXACT DIAGRAM]. Here, p is an even number, yet it gives the unknot (i.e. the trivial knot), as opposed to two separate links, as claimed. Further, if p is an odd number, regardless of the parity of p (modq), the output will consistently be the unknot. (HAVE TO GIVE EXAMPLES, SOME SEMBLANCE OF PROOF)
-
-Claim (c): If n $\in\mathbb{Z}$, then S(p,q) = S(p,q+np).
-Solution + Explanation: This claim suggests certain periodic behaviour of 2-bridge links. Having tested this claim with numerous examples, it seems to be a true statement. However, this is by no means a rigorous proof. A proof would have to show the topological equivalence of the S(p,q) and S(p,q+np) knot. However, logically approaching this question, we have insight on why this may be true. (EXPLAIN LOGICALLY)
-
-__________________________________________________________________________________________________________________________________________
-
-
-NEW PART 
-
 Claim (a): S(p,q) is a knot if p is odd, and has 2 components if p is even.
 Solution + Explanation: We find that this claim is true, and will demonstrate so by providing an exhaustive list of examples. 
 1. Assume p is not prime. Let p = 25. Case (i) - S(25,4). Then, p/q is even, and p(modq) is odd and we get the unknot. Case (ii) - S(25,7). Then, p/q is odd, and p(modq) is even, and we get the unknot. Case (iii) - S(25,8). Then, p/q is odd, p(modq) is odd, and we get the unknot.
@@ -38,7 +25,9 @@ Changing the signs of crossings of S(p,q) will always give us S(p,-q). We will s
 
 [INDUCTIVE HYPOTHESIS] Now consider a continued fraction expansion Cont_Frac_Exp1(p,q) of length n, i.e. [a_1,a_2,...,a_n], and assume that when flipping the sign of each element in the expansion, our new expansion is of the form p/-q. 
 
-[INDUCTIVE STEP] We need to show this property holds for Cont_Frac_Exp1(p,q) of length n+1. Let p/-q be the expansion of [-a_1, -a_2, ..., -a_n] with list length n. We add another term, say -a_{n+1} to make the list length n+1 and get [-a_1, -a_2, ..., -a_n, -a_{n+1}], where [a_1, a_2, ..., a_n, a_{n+1}] is Cont_Frac_Exp(p,q). Let a_{n+1} = z, and so -a_{n+1} = -z. By our inductive hypothesis, we know that [-a_1, -a_2, ..., -a_n] is of the form p/-q. Adding -a_{n+1}, we get [-a_1, -a_2, ..., -a_n, -a_{n+1}] = -z+1/(p/-q) = -z+(-q/p)  = (-zp-q)/p = -(zp+q)/p = (zp+q)/-p, which is of the form P/-Q. Hence, by Induction, we show that changing the signs of the crossings of S(p,q) fives us S(p,-q), and this holds for all n \in \mathbb{N_{>0}}.
+[INDUCTIVE STEP] We need to show this property holds for Cont_Frac_Exp1(p,q) of length n+1. Let p/-q be the expansion of [-a_1, -a_2, ..., -a_n] with list length n. We add another term, say -a_{n+1} to make the list length n+1 and get [-a_1, -a_2, ..., -a_n, -a_{n+1}], where [a_1, a_2, ..., a_n, a_{n+1}] is Cont_Frac_Exp(p,q). Let a_{n+1} = z, and so -a_{n+1} = -z. By our inductive hypothesis, we know that [-a_1, -a_2, ..., -a_n] is of the form p/-q. Adding -a_{n+1}, we get [-a_1, -a_2, ..., -a_n, -a_{n+1}] = -z+1/(p/-q) = -z+(-q/p)  = (-zp-q)/p = -(zp+q)/p = (zp+q)/-p, which is of the form P/-Q. 
 
-Though this does not imply that S(p,-q) = S(p, p-q). 
+Hence, by the principle of mathematical induction, we have proven thatchanging the signs of the crossings of S(p,q) fives us S(p,-q), and this holds for all n \in \mathbb{N_{>0}}.
+
+Though this does not imply that S(p,-q) = S(p, p-q). We will use claim (c) to prove this. We have shown previously that S(p,q) ≠ S(p,q+np) unless n=0. Now, let -q=r. Then S(p,-q) = S(p,r). Note that S(p,p+r) is of the form S(p,np+r) when n=1. As per (c), S(p,r) ≠ S(p, np+r) for n≠=0, and here, n=1.So, S(p,r) ≠ S(p,r+p). Substituting back, S(p,-q) ≠ S(p,p-q). Hence, claim (d) is incorrect.
 
