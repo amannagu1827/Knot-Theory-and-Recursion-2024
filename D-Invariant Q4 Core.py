@@ -20,17 +20,17 @@ Code from previous parts
 New code for this question BELOW vvvvvvv
 
 
-# Function to distinguish between 2-bridge links for a given range of p values
+# We define a functionto distinguish between 2-bridge links for a given range of p values, say p<1000.
 def distinguish_2_bridge_links(p_max):
-    # Iterate over all possible values of p
+    # Now, iterate over all possible values of p.
     for p in range(2, p_max):
-        # Iterate over all possible values of q_1 and q_2 that satisfy the co-primality condition
+        # Similarly, iterate over all possible values of q_1 and q_2 that satisfy the co-primality condition.
         for q_1 in range(1, p):
             for q_2 in range(1, p):
-                # Compute d invariants for both pairs
+                # Next, compute the d-invariants for both pairs
                 d_1 = compute_d_invariants(p, q_1)
                 d_2 = compute_d_invariants(p, q_2)
-                # If d invariants are different, print a message and return
+                # If d-invariants are different, print a message and return
                 if d_1 != d_2:
                     print("S(p,q_1) and S(p,q_2) are inequivalent, and hence have differing d-invariants.")
                     return
