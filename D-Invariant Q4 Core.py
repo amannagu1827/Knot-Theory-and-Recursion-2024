@@ -20,7 +20,7 @@ def compute_d_invariants(p, q):
 def distinguish_2_bridge_links(p_max):
     # Iterate over all possible values of p
     for p in range(2, p_max):
-        # Iterate over all possible values of q_1 and q_2
+        # Iterate over all possible values of q_1 and q_2 that satisfy the co-primality condition
         for q_1 in range(1, p):
             for q_2 in range(1, p):
                 # Compute d invariants for both pairs
