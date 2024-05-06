@@ -15,6 +15,10 @@ def compute_d_invariants(p, q):
    for i in range(p+q):
        d_invariants.append(calculate_d_invariant(p, q, i))
    return d_invariants
+    _____________________________________________
+Code from previous parts 
+New code for this question BELOW vvvvvvv
+
 
 # Function to distinguish between 2-bridge links for a given range of p values
 def distinguish_2_bridge_links(p_max):
