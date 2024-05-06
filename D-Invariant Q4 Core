@@ -1,3 +1,0 @@
-Does it completely distinguish between 2-bridge links. In other words, is it true that whenever S(p,q1) and S(p,q2) are inequivalent links they have differing d invariants? Check this for a collection of example, such as when p < 100. If possible, try to refine your code to work for all p < 200 or p < 1000.
-
-
