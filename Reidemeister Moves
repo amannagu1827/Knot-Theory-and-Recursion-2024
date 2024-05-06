@@ -1,0 +1,11 @@
+We look to briefly introduce Reidemeister moves. These are 3 types of topological deformations that can be applied to knots to determine whether knots are equivalent. This was developed by German mathematician Kurt Reidemeister in 1927. 
+Reidemeister Moves (See [5], [6]):
+(i) Twisting/untwisting a string in either direction. 
+(ii) Move a string over another string. 
+(iii) Move a strand from one side of a crossing to another. 
+
+(Simplified) Reidemeister Theorem: Two knots are equivalent iff they result from each other by a finite number of Reidemeister moves.
+
+Source: 
+[5] Torianyk, Maksym, and Ivan Balashov. Knots and Reidemeister Theorem, MIT Dept. of Mathematics, May 2023, math.mit.edu/research/highschool/primes/YuliasDream/2023/slides/2-1-BT.pdf. 
+[6] “Reidemeister Move.” Wikipedia, Wikimedia Foundation, 11 Sept. 2021, en.wikipedia.org/wiki/Reidemeister_move. 
