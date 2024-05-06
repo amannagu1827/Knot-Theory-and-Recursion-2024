@@ -37,4 +37,5 @@ def distinguish_2_bridge_links(p_max):
     # If no differing d invariants found, print a message
     print("Inequivalent 2-bridge links can have the same d-invariant.")
 
+We can use this function to test a range of 2-bridge links. Given the examples below, (PUT EXAMPLES) ****** we find that inequivalent 2-bridge links have unique d-invariants.
 
